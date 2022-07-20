@@ -1,14 +1,6 @@
 const Discord = require("discord.js");
 const colors = require("colors")
 const client = new Discord.Client({
-  presence: {
-    status: "dnd",
-    activity: {
-      name: "TheForbiddenForest",
-      type: "WATCHING",
-      url: "https://gekoold.com"
-    }
-  }
 });
 client.config = require("./config.json");
 
