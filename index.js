@@ -8,7 +8,7 @@ client.login(process.env.TOKEN);
 
 client.on("ready", ()=>{
   console.log(`${client.user.tag} is now Online! Prefix: ${client.config.prefix}`.bgGreen);
-  client.user.setActivity("TheForbiddenForest", {type: "WATCHING"})
+  client.user.setActivity("the camptree.", {type: "WATCHING"})
 })
 
 require("./logger")(client);
